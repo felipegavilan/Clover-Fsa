@@ -7,7 +7,7 @@ const Navbar = () => {
         {/* Logo / Nombre de la marca */}
         <Link
           to="/"
-          className="text-2xl font-bold text-blue-600 hover:opacity-80 transition-opacity"
+          className="text-2xl font-bold text-pink-600 hover:opacity-80 transition-opacity"
         >
           CLOVER<span className="text-gray-800">FSA</span>
         </Link>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex gap-6 items-center">
           <Link
             to="/"
-            className="text-gray-600 hover:text-blue-600 font-medium transition-colors"
+            className="text-gray-600 hover:text-pink-600 font-medium transition-colors"
           >
             Inicio
           </Link>

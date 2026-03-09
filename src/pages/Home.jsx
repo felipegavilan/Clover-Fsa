@@ -1,9 +1,10 @@
 import { products } from "../data/Products";
 import ProductCard from "../components/ProductCard";
-
+import Hero from "../components/Hero";
 const Home = () => {
   return (
     <div className="container mx-auto px-4 py-8">
+      <Hero />
       <h1 className="text-3xl font-bold text-center mb-8">
         Nuestros Productos
       </h1>
