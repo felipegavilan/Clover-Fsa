@@ -1,8 +1,17 @@
 import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
+  const hasStock = product.stock > 0;
+
   return (
-    <div className="w-full border rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 bg-white">
+    <div
+      className={`w-full border rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 ${!hasStock ? "opacity-60 grayscale" : ""}`}
+    >
+      {!hasStock && (
+        <span className="absolute top-2 left-2 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded z-10">
+          AGOTADO
+        </span>
+      )}
       <img
         src={product.image}
         alt={product.name}
@@ -19,11 +28,13 @@ const ProductCard = ({ product }) => {
           </span>
           <Link
             to={`/product/${product.id}`}
-            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors text-center"
+            className={`px-4 py-2 rounded-md transition-all text-center text-sm font-medium block ${
+              hasStock
+                ? "bg-rose-600 text-white hover:bg-rose-700"
+                : "bg-slate-100 text-slate-400 border border-slate-200 cursor-not-allowed pointer-events-none"
+            }`}
           >
-            <button className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors">
-              Ver detalle
-            </button>
+            {hasStock ? "Ver detalle" : "Sin Stock"}
           </Link>
         </div>
       </div>

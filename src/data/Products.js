@@ -30,7 +30,7 @@ export const products = [
     id: 4,
     name: "Remera Adidas",
     price: 45000,
-    stock: 8,
+    stock: 0,
     description: "Remera deportiva",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
@@ -39,7 +39,7 @@ export const products = [
     id: 5,
     name: "Remera Adidas",
     price: 45000,
-    stock: 8,
+    stock: 0,
     description: "Remera deportiva",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
@@ -66,7 +66,7 @@ export const products = [
     id: 8,
     name: "Remera Adidas",
     price: 4500,
-    stock: 8,
+    stock: 0,
     description: "Remera deportiva",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
