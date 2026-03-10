@@ -20,6 +20,12 @@ const Navbar = () => {
           >
             Inicio
           </Link>
+          <Link
+            to="/nosotros"
+            className="text-gray-600 hover:text-pink-600 font-medium transition-colors"
+          >
+            Nosotros
+          </Link>
 
           {/* Botón de contacto rápido (Opcional) */}
           <a
