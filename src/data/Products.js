@@ -6,7 +6,8 @@ export const products = [
     stock: 0,
     category: "Indumentaria",
     description: "Remera deportiva",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const products = [
     stock: 5,
     category: "Calzado",
     description: "Zapatillas de running",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const products = [
     stock: 10,
     category: "Accesorios",
     description: "Gorra estilo urbano",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const products = [
     stock: 3,
     category: "Indumentaria",
     description: "Short de entrenamiento",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const products = [
     stock: 0,
     category: "Calzado",
     description: "Botines para césped",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ export const products = [
     stock: 8,
     category: "Indumentaria",
     description: "Buzo de algodón",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ export const products = [
     stock: 20,
     category: "Accesorios",
     description: "Pack de 3 pares",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ export const products = [
     stock: 12,
     category: "Calzado",
     description: "Ojotas clásicas",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ export const products = [
     stock: 2,
     category: "Indumentaria",
     description: "Campera liviana",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ export const products = [
     stock: 4,
     category: "Accesorios",
     description: "Mochila escolar/deportiva",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ export const products = [
     stock: 2,
     category: "Indumentaria",
     description: "Campera liviana",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
   {
     id: 12,
@@ -105,6 +116,7 @@ export const products = [
     stock: 4,
     category: "Accesorios",
     description: "Mochila escolar/deportiva",
-    image: "/src/assets/trebol.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5SZplFnkdZcD3sWD01AikI8Pv4aosHTA2A&s",
   },
 ];
