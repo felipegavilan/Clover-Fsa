@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <div className="bg-slate-900 text-white py-16 px-4 mb-10 rounded-2xl mx-4">
@@ -9,12 +11,12 @@ const Hero = () => {
           Calidad, estilo y comodidad en cada uno de nuestros productos.
           Encontrá lo que buscás al mejor precio.
         </p>
-        <a
-          href="#productos"
+        <Link
+          to={"/tienda"}
           className="bg-rose-600 hover:bg-rose-700 text-white font-bold py-3 px-8 rounded-full transition-all"
         >
           Ver productos
-        </a>
+        </Link>
       </div>
     </div>
   );
