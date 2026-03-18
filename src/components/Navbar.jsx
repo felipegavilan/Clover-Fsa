@@ -18,6 +18,9 @@ const Navbar = () => {
             <Link to="/" className="hover:text-rose-600">
               Inicio
             </Link>
+            <Link to="/tienda" className="hover:text-rose-600">
+              Tienda
+            </Link>
             <Link to="/nosotros" className="hover:text-rose-600">
               Nosotros
             </Link>
@@ -69,6 +72,13 @@ const Navbar = () => {
               className="block py-2 hover:bg-gray-50"
             >
               Inicio
+            </Link>
+            <Link
+              to="/tienda"
+              onClick={() => setIsOpen(false)}
+              className="block py-2 hover:bg-gray-50"
+            >
+              Tienda
             </Link>
             <Link
               to="/nosotros"
